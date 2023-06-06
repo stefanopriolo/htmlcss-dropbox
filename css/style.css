@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 img {
@@ -17,10 +16,45 @@ img {
 }
 
 :root {
-    --color_primary: #0060ff;
+    --color_primary: #0061ff;
     --color_primary_light: #b4d0e7;
 }
 
+.container_general {
+    width: 920px;
+    height: 300px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+.nav_container {
+    height: 40px;
+}
 
+.nav_left, .nav_right {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+border: none;
+background-color: var(--color_primary);
+color: white;
+padding: 3px 10px;
+font-size: 10px;
+}
+
+.nav_left img{
+    width: 60px;
+    height:fit-content; 
+}
+
+.nav_left span,
+.nav_right span {
+font-size: 10px;
+padding: 10px;
+
+}
 
