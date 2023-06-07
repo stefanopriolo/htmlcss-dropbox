@@ -6,9 +6,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 img {
@@ -18,23 +15,24 @@ img {
 :root {
     --color_primary: #0061ff;
     --color_primary_light: #b4d0e7;
-    --span_size: 10px;
+    --span_size: 0.7rem;
+    --padding_40: 40px;
     --padding_20: 20px;
-    --padding_10: 10px;
 }
 
-.container_general {
-    width: 920px;
-    height: auto;
-    /* border: 1px dashed black; */
+/* --------- Fine General ---------  */
+
+
+.box_general {
+    width: 1280px;
+    border: 1px dashed black;
 }
 
 .nav_container {
     display: flex;
     justify-content: center;
-    height: 40px;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0 10px 0 10px;
 }
 
 .nav_left, .nav_right {
@@ -45,59 +43,69 @@ img {
 
 .button {
 border: none;
+text-decoration: none;
 background-color: var(--color_primary);
 color: white;
-padding: 3px 10px;
-font-size: 10px;
+padding: 0.2rem 0.4rem;
+font-size: var(--span_size);
 }
 
+
 .nav_left img{
-    width: 60px;
-    height:fit-content; 
+    width: 80px;
 }
 
 .nav_left span,
 .nav_right span {
 font-size: var(--span_size);
-padding: 10px;
+padding: var(--padding_20);
 
 }
 
-.container_hero {
-    max-height: 300px;
-    border: 1px dashed black;
+/* ------------- Fine Nav -----------  */
+
+.bg {
     background-color: #b4d0e7;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: var(--padding_40);
+}
+
+.box_paragraph {
     display: flex;
-    justify-content: center;
-    padding-top: 30px;
 }
 
-.box_hero {
-    min-width: 520px;
+h1 {
+    font-size: 3.8rem;
+    padding-bottom: var(--padding_40);
 }
 
-.hero {
-    display: flex;
-}
-.hero_img {
-    width: 380px;
-}
-
-.title, .arrow {
-    font-size: 23px;
+.unsub {
+    text-decoration: none;
+    color: black;
+    padding-top: var(--padding_20);
+    padding-bottom: 100px;
+    display: block;
 }
 
-.title, .delete_span {
-    padding-bottom: var(--padding_20);
+.paragraph i {
+    font-size: 1.5rem;
 }
 
-.paragraph, .button_container {
-    padding-bottom: var(--padding_10);
-}
-
-.container_paragraph {
+.paragraph {
+    width: 250px;
     font-size: var(--span_size);
 }
 
+.paragraph p, .paragraph i {
+    padding-bottom: var(--padding_20);
+}
 
-
+.jumbo_img {
+    width: 600px;
+    height: 100%;
+    margin-bottom: -50px;
+}
