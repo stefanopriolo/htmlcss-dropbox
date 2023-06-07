@@ -18,6 +18,8 @@ img {
     --span_size: 0.7rem;
     --padding_40: 40px;
     --padding_20: 20px;
+    --border_grey: 1px solid #d0d0d3;
+    --color_grey: #a1a1a1;
 }
 
 /* --------- Fine General ---------  */
@@ -25,7 +27,7 @@ img {
 
 .box_general {
     width: 1280px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .nav_container {
@@ -46,7 +48,7 @@ border: none;
 text-decoration: none;
 background-color: var(--color_primary);
 color: white;
-padding: 0.2rem 0.4rem;
+padding: 0.3rem 0.4rem;
 font-size: var(--span_size);
 }
 
@@ -79,7 +81,7 @@ padding: var(--padding_20);
 }
 
 h1 {
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     padding-bottom: var(--padding_40);
 }
 
@@ -87,7 +89,7 @@ h1 {
     text-decoration: none;
     color: black;
     padding-top: var(--padding_20);
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     display: block;
 }
 
@@ -105,7 +107,96 @@ h1 {
 }
 
 .jumbo_img {
-    width: 600px;
+    width: 500px;
     height: 100%;
     margin-bottom: -50px;
 }
+
+/* ------------- Fine Hero -----------  */
+
+.page {
+    width: 750px;
+    border: 1px dashed black;
+    padding-top: 80px;
+}
+
+h2, .container_radio {
+    padding-bottom: var(--padding_40);
+}
+
+.container_radio {
+    font-size: var(--span_size);
+    display: flex;
+}
+
+.container_radio span {
+    padding-right: var(--padding_20);
+    padding-left: 2px;
+}
+
+.container_box {
+    display: flex;
+    gap: 2rem;
+}
+
+.single_box, .team_box, .company_box {
+    width: 28%;
+    border: var(--border_grey);
+}
+
+.box_name {
+    width: 100%;
+    min-height: 2rem;
+    border: var(--border_grey);
+    font-size: var(--span_size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.all_content {
+    padding: var(--padding_20);
+}
+
+h3, .all_content p, .all_content li {
+    padding-bottom: 10px;
+}
+
+.all_content p, .all_content span, .all_content i {
+    font-size: var(--span_size);
+}
+
+.all_content p:nth-child(3) {
+    color: var(--color_grey);
+    padding-bottom: var(--padding_40);
+}
+
+.all_content ul {
+    list-style-type: none;
+    padding-bottom: var(--padding_40);
+}
+
+.pad {
+    padding: 0.5rem 1.3rem;
+}
+
+.all_content a:last-child {
+    font-size: var(--span_size);
+}
+
+.buynow {
+    padding-top: var(--padding_20);
+    padding-bottom: var(--padding_40);
+}
+
+h6 {
+    padding-top: var(--padding_40);
+    padding-bottom: var(--padding_20);
+}
+
+hr {
+    width: 25%;
+    border: var(--border_grey);
+}
+
