@@ -339,6 +339,10 @@ height: 2rem;
     color: black
 }
 
+.faq {
+    padding-bottom: 80px;
+}
+
 .faq_container {
     width: 100vh;
 }
@@ -363,5 +367,31 @@ height: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* --------- Fine Aside ---------  */
+
+.bg_black {
+    background-color: black;
+}
+
+.footer_container {
+    width: 150vh;
+    height: 300vh;
+}
+
+.column h6, .column li {
+    color: white;
+    font-size: var(--span_size);
+}
+
+.column li {
+    padding-bottom: 10px;
+}
+
+.flex_footer {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
 }
 
