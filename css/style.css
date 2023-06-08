@@ -245,3 +245,60 @@ height: 2rem;
     padding-top: var(--padding_40);
 }
 
+.op {
+    width: 40%;
+}
+
+/* --------- Fine Main -------- */
+
+.box_aside {
+    width: 1280px; 
+    height: 300px;
+    background-color: red;
+    display: flex;
+
+}
+
+.cards_left, .card_center, .cards_right {
+    width: 33.33%;
+    height: 300px;
+    background-color: blue;
+    border: 1px dashed black;
+}
+
+.card  {
+    width: calc(50%);
+    height: calc(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design {
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+.asu {
+    background-color: #61082b;
+}
+
+.florida {
+    background-color: #0093ce;
+}
+
+.topps {
+    background-color: #ff1c1c;
+}
+.cards_left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 50%;
+    fill: white;
+}
+
+
+
