@@ -253,10 +253,16 @@ height: 2rem;
 
 .box_aside {
     width: 1280px; 
-    height: 300px;
-    background-color: red;
     display: flex;
+}
 
+.container_aside{
+    width: 1280px;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards_left, .card_center, .cards_right {
@@ -316,3 +322,46 @@ height: 2rem;
     padding-top: var(--padding_20);
     padding-bottom: var(--padding_20);
 }
+
+.aside_title {
+    width: 50vh;
+    padding-top: 80px;
+    padding-bottom: var(--padding_40);
+}
+
+.aside_title h2 {
+    color: #7c082b;
+    padding-right: var(--padding_40);
+}
+
+.free_button a {
+    background-color: white;
+    color: black
+}
+
+.faq_container {
+    width: 100vh;
+}
+
+
+.faq hr {
+    width: 100%;
+    color: black;
+}
+
+.faq p {
+    padding-top: var(--padding_40);
+    padding-bottom: var(--padding_40);
+    font-size: var(--span_size);
+}
+
+.padding {
+    padding-top: 80px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
