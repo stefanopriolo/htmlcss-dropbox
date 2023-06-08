@@ -139,12 +139,19 @@ h2, .container_radio {
 .container_box {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
+    padding-top: var(--padding_20);
+    padding-bottom: var(--padding_20);
 }
 
-.single_box, .team_box, .company_box {
+.single_box, .team_box, 
+.company_box {
     width: 28%;
     border: var(--border_grey);
+}
+
+.border_clean {
+    border: none;
 }
 
 .large {
