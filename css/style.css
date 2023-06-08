@@ -27,7 +27,6 @@ img {
 
 .box_general {
     width: 1280px;
-    /* border: 1px dashed black; */
 }
 
 .nav_container {
@@ -115,8 +114,7 @@ h1 {
 /* ------------- Fine Hero -----------  */
 
 .page {
-    width: 750px;
-    border: 1px dashed black;
+    max-width: 110vh;
     padding-top: 80px;
 }
 
@@ -136,6 +134,7 @@ h2, .container_radio {
 
 .container_box {
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
 }
 
@@ -144,6 +143,9 @@ h2, .container_radio {
     border: var(--border_grey);
 }
 
+.large {
+    width: 100%;
+}
 .box_name {
     width: 100%;
     min-height: 2rem;
@@ -179,6 +181,8 @@ h3, .all_content p, .all_content li {
 
 .pad {
     padding: 0.5rem 1.3rem;
+    display:block;
+    text-align: center;
 }
 
 .all_content a:last-child {
@@ -200,3 +204,22 @@ hr {
     border: var(--border_grey);
 }
 
+.container_enterprise {
+    width: 30rem;
+    height: 100%;
+}
+
+.container_enterprise p:last-child {
+    padding-top: var(--padding_40);
+    padding-bottom: 0;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.large a {
+height: 2rem;
+}
